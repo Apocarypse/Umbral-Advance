@@ -1,0 +1,1 @@
+move_towards_point(clamp(oPlayer.x, oEye.x - 15, oEye.x + 10), fixedY, oEye.moveSpeed + 0.2);
