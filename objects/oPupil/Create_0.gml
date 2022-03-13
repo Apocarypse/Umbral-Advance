@@ -1,4 +1,11 @@
-fixedY = y + 10;
+x = oEye.x;
+y = oEye.y;
+
+visible = false;
+
+fixedY = y + 5;
+
+triggered = false;
 
 wobble = 0.1;
 color = c_fuchsia;

@@ -1,3 +1,6 @@
+if global.gameOver
+	exit;
+
 if not canMove
 	exit;
 
@@ -16,6 +19,7 @@ var dir = sign(horizontalSpeed);
 
 if keyJump and not jumping
 {
+	audio_play_sound(sfxJump, 0, false);
 	jumping = true;
 	verticalSpeed -= jumpSpeed;
 }
@@ -42,6 +46,7 @@ if place_meeting(x, y + verticalSpeed, oCol)
 		y += sign(verticalSpeed);
 	
 	verticalSpeed = 0;
+	x -= global.scrollSpeed;
 }
 
 y += verticalSpeed;
@@ -59,3 +64,6 @@ if image_speed == 0
 	image_index = 0;
 	
 #endregion
+
+
+invul--;

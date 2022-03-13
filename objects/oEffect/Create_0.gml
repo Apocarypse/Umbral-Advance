@@ -1,3 +1,3 @@
-alarm[0] = room_speed * 15;
+alarm[0] = 1;
 
 fx = noone;

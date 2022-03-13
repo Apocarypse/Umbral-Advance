@@ -1,5 +1,4 @@
 alarm[0] = room_speed * 15;
-alarm[1] = room_speed * 15;
 image_speed = 0;
 triggered = false;
 moveSpeed = 0.1;

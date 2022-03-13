@@ -1,4 +1,3 @@
-
 if AnimationEnd()
 {
 	image_speed = 0;

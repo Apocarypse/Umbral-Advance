@@ -6,6 +6,10 @@ jumpSpeed = 6;
 jumping = false;
 canMove = false;
 image_speed = 0;
+invul = 10;
+
+maxHP = 3;
+hp = maxHP;
 
 wobble = 0.001;
 color = c_fuchsia;

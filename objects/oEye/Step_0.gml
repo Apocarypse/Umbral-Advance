@@ -1,4 +1,14 @@
 if triggered
+{
+	image_speed = 1;
 	image_angle -= 0.5;
-	
-move_towards_point(oPlayer.x, y, moveSpeed);
+}
+
+else
+	x += moveSpeed;
+
+if AnimationEnd()
+{
+	oPupil.visible = true;
+	image_speed = 0;
+}
